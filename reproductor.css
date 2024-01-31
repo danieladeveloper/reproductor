@@ -27,14 +27,14 @@
     background-color: transparent;
     height: 100%;
     width: 300px;
-    border: white solid 1px;
+    border: rgb(80, 63, 63) solid 1px;
     border-radius: 100px;
-    color: white;
+    color: rgb(51, 41, 41);
     padding: 8px 24px;
 }
 
 .search::placeholder {
-    color: white;
+    color: rgb(126, 103, 103);
 }
 
 .imglupa {
@@ -49,9 +49,6 @@
 }
 
 
-.botonsearch{
-    background-color: blue;
-}
 
 
 
@@ -65,8 +62,9 @@
 
 .coveralbum{
     background-image: url(./img/fondoreproductor.jpg);
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
+    align-self: center;
 }
 
 /* descripción */
@@ -77,6 +75,9 @@
 /* BOTONES */
 .botones{
     display: inline block;
+    align-self: center;
+    left: 50%;
 }
+
 
 
