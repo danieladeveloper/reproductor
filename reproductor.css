@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.todo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+/* BUSCADOR */
+
+.buscadorylistas{
+    border: 2px solid black;
+}
+.lupa {
+    width: fit-content;
+    position: relative;
+    z-index: 45;
+    bottom: 30%;
+    left: 950px;
+}
+
+
+.search {
+    background-color: transparent;
+    height: 100%;
+    width: 300px;
+    border: white solid 1px;
+    border-radius: 100px;
+    color: white;
+    padding: 8px 24px;
+}
+
+.search::placeholder {
+    color: white;
+}
+
+.imglupa {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-30px, -50%);
+    cursor: pointer;
+    z-index: 89;
+    width: 20px;
+    height: 20px;
+}
+
+
+.botonsearch{
+    background-color: blue;
+}
+
+
+
+
+/* LISTAS DE REPRODUCCIÓN */
+
+.reproductor{
+    border: 2px black solid;
+}
+/* cover album */
+
+.coveralbum{
+    background-image: url(./img/fondoreproductor.jpg);
+    width: 600px;
+    height: 600px;
+}
+
+/* descripción */
+.descripción{
+    background-color: aqua;
+}
+
+/* BOTONES */
+.botones{
+    display: inline block;
+}
+
+
