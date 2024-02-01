@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src= "https://fontawesome.com/icons/plus?f=classic&s=solid"></script>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
@@ -20,59 +21,73 @@
         <div class="buscadorylistas">
 
             <div class="buscador">
-                <input type="text" placeholder="Canción" class="search" />
+                <input type="text" placeholder="Canción"/>
+                <i class="fa-solid fa-magnifying-glass"></i>
 
-                <button class="botonsearch"> Search </button>
+               <button class="botonsearch"> Search </button>
 
 
             </div>
+        
 
             <div class="listasdereproduccion">
                 <div class="filtrodebusqueda">
                     <h2>Busqueda</h2>
 
-                    <ul>
-                        <li class="cancion">Canción 1 <a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
-                            <a href="favorite"><i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="plus"><i
-                                    class="fa fa-plus" aria-hidden="true"></i> </a></li>
-                        <li class="cancion">Canción 2 <a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
-                            <a href="favorite"><i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="plus"><i
-                                    class="fa fa-plus" aria-hidden="true"></i> </a></li>
-                        <li class="cancion">Canción 3 <a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
-                            <a href="favorite"><i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="plus"><i
-                                    class="fa fa-plus" aria-hidden="true"></i> </a></li>
+                    <ul class="listabusqueda">
+                        <li class="cancion"><span>Canción 1</span> 
+                            <div class="iconos"><a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
+                            <a href="favorite"><i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="trash"><i
+                            class="fa-solid fa-plus" aria-hidden="true"></i></a> </div></li>
+                        <li class="cancion"><span>Canción 2</span> 
+                            <div class="iconos"><a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
+                            <a href="favorite"><i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="trash"><i
+                            class="fa-solid fa-plus" aria-hidden="true"></i></a> </div></li>
+                        <li class="cancion"><span>Canción 3</span> 
+                            <div class="iconos"><a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
+                            <a href="favorite"><i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="trash"><i
+                            class="fa-solid fa-plus" aria-hidden="true"></i></a> </div></li>
+                                    
                     </ul>
                 </div>
 
                 <div class="Playlists">
-                    <h2>Playlists</h2>
-                    <ul>
-                        <li class="cancion">Canción 1 <a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
+                    <h2 >Playlists</h2>
+                    <ul class="listaplaylist">
+                        
+                        <li class="cancion"><span>Canción 1</span> 
+                            <div class="iconos"><a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
                             <a href="favorite"><i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="trash"><i
-                                    class="fa fa-trash" aria-hidden="true"></i></a> </li>
-                        <li class="cancion">Canción 2 <a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
+                            class="fa fa-trash" aria-hidden="true"></i></a> </div></li>
+                        <li class="cancion"><span>Canción 2</span> 
+                            <div class="iconos"><a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
                             <a href="favorite"><i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="trash"><i
-                                    class="fa fa-trash" aria-hidden="true"></i></a> </li>
-                        <li class="cancion">Canción 3 <a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
+                            class="fa fa-trash" aria-hidden="true"></i></a> </div></li>
+                        <li class="cancion"><span>Canción 3</span> 
+                            <div class="iconos"><a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
                             <a href="favorite"><i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="trash"><i
-                                    class="fa fa-trash" aria-hidden="true"></i></a> </li>
-
+                            class="fa fa-trash" aria-hidden="true"></i></a> </div></li>
+                        
                     </ul>
                 </div>
 
                 <div class="favorito">
-                    <h2>Favoritos</h2>
-                    <ul>
-                        <li class="canción">Canción 1 <a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
-                         <a href="dislike"> <i class="fa fa-times" aria-hidden="true"></i> </a> <a href="plus"><i
-                                    class="fa fa-plus" aria-hidden="true"></i> </a></li>
-                        <li class="cancion">Canción 2 <a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
-                            <a href="dislike"><i class="fa fa-times" aria-hidden="true"></i> </a> <a href="plus"><i
-                                    class="fa fa-plus" aria-hidden="true"></i> </a></li>
-                        <li>Canción 3 <a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a> <a
-                                href="dislike">
-                                <i class="fa fa-times" aria-hidden="true"></i> </a> <a href="plus"><i class="fa fa-plus"
-                                    aria-hidden="true"></i> </a></li>
+                    <h2 >Favoritos</h2>
+                    <ul class="listafavoritos">
+                        <li class="cancion"><span>Canción 1</span> 
+                            <div class="iconos"><a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
+                            <a href="favorite"><i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="trash"><i
+                            class="fa-solid fa-plus" aria-hidden="true"></i></a> </div></li>
+                        <li class="cancion"><span>Canción 2</span> 
+                            <div class="iconos"><a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
+                            <a href="favorite"><i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="trash"><i
+                            class="fa-solid fa-plus" aria-hidden="true"></i></a> </div></li>
+                        <li class="cancion"><span>Canción 3</span> 
+                            <div class="iconos"><a href="play"><i class="fa fa-play" aria-hidden="true"> </i> </a>
+                            <a href="favorite"><i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="trash"><i
+                            class="fa-solid fa-plus" aria-hidden="true"></i></a> </div></li>
+                        
+                                    
 
                     </ul>
                 </div>
@@ -89,7 +104,7 @@
 
             </div>
             <!-- DESCRIPCIÓN DE LA CANCIÓN -->
-            <div class="Descripción">
+            <div class="Descripcion">
                 <p>Nombre</p>
                 <p>Duración</p>
                 <p>Album</p>
@@ -97,15 +112,27 @@
                 <p>Género</p>
             </div>
             <!-- BOTONES DE LA CANCIÓN -->
-            <div class="botones">
-
-                <h3><a href="stop"><i class="fa fa-stop" aria-hidden="true"></i></a>
-                    <a href="reverse"><i class="fa fa-step-backward" aria-hidden="true"></i></a>
-                    <a href="play"><i class="fa fa-play" aria-hidden="true"></i></a>
-                    <a href="pause"><i class="fa fa-pause" aria-hidden="true"></i></a>
-                    <a href="adelantar"><i class="fa fa-step-forward" aria-hidden="true"></i></a>
-                    <a href="mute"><i class="fa fa-volume-off" aria-hidden="true"></i></a>
-                </h3>
+            <div >
+                <ul class="botones">
+                    <li>
+                    <a href="reverse"><i class="fa-solid fa-backward" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="play"><i class="fa fa-play" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="adelantar"><i class="fa-solid fa-forward" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="stop"><i class="fa fa-stop" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="pause"><i class="fa fa-pause" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="mute"><i class="fa fa-volume-off" aria-hidden="true"></i></a>
+                    </li>
+                    </ul>
 
             </div>
 
